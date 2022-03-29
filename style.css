@@ -1,0 +1,112 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  padding: 12px;
+  padding-top: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.mb {
+  margin-bottom: 4px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+}
+
+.align-end {
+  justify-content: flex-end;
+}
+
+.flex-container p {
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.gi {
+  margin-right: 4px;
+}
+
+.gi * {
+  font-size: 12px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.pfp-container {
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+#waffle {
+  width: 24px;
+  height: 24px;
+  padding: 12px;
+}
+
+.body-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20vh;
+}
+
+.body {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dfe1e5;
+  border-radius: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+#search {
+  width: 500px;
+  height: 42px;
+  padding-left: 40px;
+  background: url('data:image/svg+xml,<svg focusable="false" style="filter: invert(64%) sepia(10%) saturate(210%) hue-rotate(166deg) brightness(98%) contrast(92%);" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>')
+    top left no-repeat;
+  background-position-x: 13px;
+  background-size: 20px;
+  background-position-y: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
+}
+
+#mic-icon {
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+}
+
+#search:focus {
+  outline: none;
+}
